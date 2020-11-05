@@ -13,3 +13,5 @@ Download https://www.scipopt.org/download.php?fname=SCIPOptSuite-7.0.1-Linux.deb
 ## Next time
 
     source venv/bin/activate
+## Docs
+https://pypi.org/project/PySCIPOpt/
