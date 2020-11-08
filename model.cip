@@ -1,0 +1,15 @@
+STATISTICS
+  Problem name     : ejemplos.zpl
+  Variables        : 2 (0 binary, 2 integer, 0 implicit integer, 0 continuous)
+  Constraints      : 4 initial, 4 maximal
+OBJECTIVE
+  Sense            : maximize
+VARIABLES
+  [integer] <a>: obj=0, original bounds=[0,+inf]
+  [integer] <o>: obj=1, original bounds=[0,+inf]
+CONSTRAINTS
+  [linear] <restricB_1>:  -<a>[I] -<o>[I] >= -2;
+  [linear] <restricB_2>:  -2<a>[I] -<o>[I] >= -2;
+  [linear] <restricA_1>:  -2<a>[I] +<o>[I] <= -1;
+  [linear] <restricA_2>:  -<a>[I] +<o>[I] <= -1;
+END
