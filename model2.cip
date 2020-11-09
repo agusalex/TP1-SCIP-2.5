@@ -1,0 +1,17 @@
+STATISTICS
+  Problem name     : Example
+  Variables        : 4 (0 binary, 4 integer, 0 implicit integer, 0 continuous)
+  Constraints      : 4 initial, 4 maximal
+OBJECTIVE
+  Sense            : maximize
+VARIABLES
+  [integer] <a>: obj=0, original bounds=[0,+inf]
+  [integer] <b>: obj=0, original bounds=[0,+inf]
+  [integer] <c>: obj=0, original bounds=[0,+inf]
+  [integer] <o>: obj=1, original bounds=[0,+inf]
+CONSTRAINTS
+  [linear] <c1>:  -<a>[I] -<b>[I] -<c>[I] -<o>[I] >= -2;
+  [linear] <c2>:  -16<a>[I] -4<b>[I] -<c>[I] -<o>[I] >= -2;
+  [linear] <c3>:  -4<a>[I] -2<b>[I] -<c>[I] +<o>[I] <= -2;
+  [linear] <c4>:  -9<a>[I] -3<b>[I] -<c>[I] +<o>[I] <= -2;
+END
