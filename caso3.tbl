@@ -1,8 +1,0 @@
-zimpl	v       0	a               	"a"
-zimpl	v       1	b               	"b"
-zimpl	v       2	c               	"c"
-zimpl	v       3	o               	"o"
-zimpl	c       0	restricB_1      	"restricB_1"	0.0000000000000000e+00
-zimpl	c       1	restricB_2      	"restricB_2"	0.0000000000000000e+00
-zimpl	c       2	restricA_1      	"restricA_1"	0.0000000000000000e+00
-zimpl	c       3	restricA_2      	"restricA_2"	0.0000000000000000e+00

@@ -333,7 +333,8 @@ ENV/
 env.bak/
 venv.bak/
 pythonenv*
-
+input_B.txt
+input_N.txt
 # Spyder project settings
 .spyderproject
 .spyproject
