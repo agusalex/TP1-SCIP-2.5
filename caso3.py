@@ -2,8 +2,6 @@ import os
 from shutil import copyfile
 from pyscipopt import Model
 
-plt.style.use('seaborn-whitegrid')
-
 model = Model("Caso3")  # model name is optional
 a = model.addVar("a", vtype="CONTINUOUS")
 b = model.addVar("b", vtype="CONTINUOUS")
