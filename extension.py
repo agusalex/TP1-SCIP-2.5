@@ -14,7 +14,7 @@ for test in tests:
     copyfile(os.path.join("tests","extension",test+"_B.txt"), "input_B.txt")
     copyfile(os.path.join("tests","extension",test+"_N.txt"), "input_N.txt")
     #Cargo en SCIP el problema en formato ZIMPL
-    model.readProblem("caso3.zpl")
+    model.readProblem("extension.zpl")
     model.optimize()
     sol = model.getBestSol()
     #Busco solucion e imprimo puntos
