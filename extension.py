@@ -2,17 +2,17 @@ import os
 from shutil import copyfile
 from pyscipopt import Model
 
-model = Model("Caso3")  # model name is optional
+model = Model("Extension")  # model name is optional
 a = model.addVar("a", vtype="CONTINUOUS")
 b = model.addVar("b", vtype="CONTINUOUS")
 c = model.addVar("c", vtype="CONTINUOUS")
 o = model.addVar("o", vtype="CONTINUOUS")
-tests = ["caso3_test1"]
+tests = ["extension_test1"]
 
 for test in tests:
     #me traigo el caso de test y le pongo de nombre input_B e input_N
-    copyfile(os.path.join("tests","caso3",test+"_B.txt"), "input_B.txt")
-    copyfile(os.path.join("tests","caso3",test+"_N.txt"), "input_N.txt")
+    copyfile(os.path.join("tests","extension",test+"_B.txt"), "input_B.txt")
+    copyfile(os.path.join("tests","extension",test+"_N.txt"), "input_N.txt")
     #Cargo en SCIP el problema en formato ZIMPL
     model.readProblem("caso3.zpl")
     model.optimize()

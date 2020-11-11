@@ -1,4 +1,5 @@
 # TP1-SCIP-2.5
+Paquetes requeridos: PySCIPOpt el siguiente script los instala y todo lo que se necesita para ejecutarse
 ## Ubuntu 18/20
 Download https://www.scipopt.org/download.php?fname=SCIPOptSuite-7.0.1-Linux.deb
 
@@ -11,7 +12,6 @@ Download https://www.scipopt.org/download.php?fname=SCIPOptSuite-7.0.1-Linux.deb
     python main.py
 
 ## Next time
-
     source venv/bin/activate
 ## Docs
 https://pypi.org/project/PySCIPOpt/
