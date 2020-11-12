@@ -1,7 +1,16 @@
 # TP1-SCIP-2.5
-Paquetes requeridos: PySCIPOpt el siguiente script los instala y todo lo que se necesita para ejecutarse
+
+Paquetes requeridos(Si se ejecuta desde python): PySCIPOpt el siguiente script los instala y todo lo que se necesita para ejecutarse
+Sino desde bash solo hace falta tener instalado SCIP
+
 ## Ubuntu 18/20
 Download https://www.scipopt.org/download.php?fname=SCIPOptSuite-7.0.1-Linux.deb
+
+Bash
+    sudo dpkg -i SCIPOptSuite-7.0.1-Linux.deb
+    sh caso2.sh
+    
+Python
 
     sudo dpkg -i SCIPOptSuite-7.0.1-Linux.deb
     sudo apt-get install python3-pip python3-venv
@@ -9,7 +18,9 @@ Download https://www.scipopt.org/download.php?fname=SCIPOptSuite-7.0.1-Linux.deb
     source venv/bin/activate
     python3 -m pip install --upgrade pip
     pip install -r requirements.txt
-    python main.py
+    python caso2.py
+    
+
 
 ## Next time
     source venv/bin/activate
